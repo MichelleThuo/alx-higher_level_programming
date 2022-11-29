@@ -5,9 +5,3 @@ for i in range(122, 96, -1):
     if i % 2 == 0:
         x = 0
     print("{}".format(chr(i - x)), end="")
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Securi
