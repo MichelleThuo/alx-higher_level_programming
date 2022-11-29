@@ -17,5 +17,3 @@ elif lastDigit < 6:
     print(f"{msg} and is less than 6 and not 0")
 else:
     print(msg)
-Footer
-© 2022 GitHub, Inc.
