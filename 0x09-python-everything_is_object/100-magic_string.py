@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-n = None
 def magic_string():
-    global n; n = 0 if n is None else n + 1
-    return 'Best School' + ', Best School' * n
+    magic_string.n = getattr(magic_string, 'n', 0) + 1
+    return ("BestSchool, " * (magic_string.n - 1) + "BestSchool")
