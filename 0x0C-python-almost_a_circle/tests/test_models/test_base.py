@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 """This is a test module for the `Base` class in the ``models`` package"""
 
 import unittest
